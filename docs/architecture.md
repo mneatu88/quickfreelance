@@ -20,15 +20,15 @@ Stripe (Payments)
 
 ## Main Components
 
-| Layer              | Technology              | Purpose |
-|--------------------|-------------------------|-------|
-| **Frontend**       | Lovable.dev + Next.js + Tailwind | User interface, responsive design |
-| **Authentication** | Supabase Auth           | Login, signup, magic links, sessions |
-| **Database**       | Supabase PostgreSQL     | Users, gigs, orders, courses, enrollments |
-| **Payments**       | Stripe Checkout + Webhooks | Secure payments, escrow, subscriptions |
-| **File Storage**   | Supabase Storage        | Gig images, course thumbnails, videos |
-| **Chat**           | Supabase Realtime       | Real-time messaging between buyer & seller |
-| **AI Features**    | Grok + Claude           | Smart proposals, course generation (future) |
+| Layer                  | Technology                        | Purpose |
+|------------------------|-----------------------------------|-------|
+| **Frontend**           | Lovable.dev + Next.js + Tailwind  | User interface, responsive design |
+| **Authentication**     | Supabase Auth                     | Login, signup, sessions |
+| **Database**           | Supabase PostgreSQL               | Users, gigs, orders, courses, enrollments |
+| **Payments**           | Stripe Checkout + Webhooks        | Secure payments, escrow, subscriptions |
+| **File Storage**       | Supabase Storage                  | Gig images, course thumbnails, videos |
+| **Real-time Chat**     | Supabase Realtime                 | Live messaging between buyer and seller (available on all pages) |
+| **AI Features**        | Grok + Claude                     | Smart proposals, course generation (future) |
 
 ---
 
@@ -44,21 +44,12 @@ Stripe (Payments)
 
 ---
 
-## Current Tech Decisions (Why we chose this stack)
+## Current Tech Decisions
 
 - **Fast development** → Lovable.dev allows us to build very quickly
 - **Low cost at start** → Supabase free tier + Lovable
-- **Scalable** → Can grow to thousands of users without changing stack
+- **Scalable & Real-time** → Supabase Realtime for chat and notifications
 - **Secure payments** → Stripe is industry standard
-- **Real-time features** → Built-in with Supabase
-
----
-
-**Future improvements planned:**
-- Move to Supabase Pro when we hit usage limits
-- Add proper CI/CD with GitHub Actions
-- PWA for mobile app experience
-- Advanced AI agents for sellers
 
 ---
 
