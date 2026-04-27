@@ -3,78 +3,78 @@
 **The freelance marketplace + academy where freelancers teach freelancers.**
 
 **Website:** [https://quickfreelance.co.uk](https://quickfreelance.co.uk)  
-**Status:** Beta (public)  
-**Locație:** Leeds, West Yorkshire, United Kingdom  
-**Fondat:** 2026
+**Status:** Beta (Live)  
+**Location:** Leeds, West Yorkshire, United Kingdom  
+**Founded:** 2026
 
 ---
 
-## 🎯 Ce este QuickFreelance?
+## 🎯 What is QuickFreelance?
 
-O platformă **duală** care combină:
-- **Marketplace** – servicii freelance (gigs) cu comision 10%
-- **Academy** – cursuri create de freelanceri pentru freelanceri (0% comision pe cursuri)
+A **dual-platform** that combines:
+- **Marketplace** – freelance services (gigs) with 10% commission
+- **Academy** – courses created by freelancers for freelancers (0% commission on courses)
 
-Scopul: să ajutăm freelancerii să **câștige mai mult** și să **învețe mai repede** în același loc.
+Our goal: help freelancers **earn more** and **learn faster** in one place.
 
 ---
 
-## ✨ Principalele funcționalități (actual)
+## ✨ Key Features (Current)
 
 ### Marketplace
-- Creare și căutare gigs
-- Categorii + subcategorii (ca Fiverr)
-- Plăți Stripe + escrow
-- Chat între buyer și seller
-- Recenzii și ratinguri
-- "How to Sell Online" (Amazon, TikTok, eBay, TikTok Affiliate)
+- Create and browse gigs
+- Categories & subcategories (Fiverr-style)
+- Secure Stripe payments + escrow
+- Real-time chat between buyer and seller
+- Reviews and ratings
+- "How to Sell Online" guides (Amazon, TikTok, eBay, TikTok Affiliate)
 
 ### Academy
-- Creare cursuri complete (cu module, lecții, player)
-- Cursuri gratuite + plătite (preț setat de mentor)
-- Stripe Checkout pentru cursuri plătite
-- My Learning + My Courses (cu Drafts/Published)
-- 0% comision pe cursuri (doar abonament Starter/Pro)
+- Full course creation (modules, lessons, video player)
+- Free + paid courses (price set by mentor)
+- Stripe Checkout for paid courses
+- My Learning + My Courses (Drafts / Published)
+- 0% commission on course sales
 
-### Comun
-- Autentificare Supabase
-- 2 tipuri de conturi (Buyer / Seller)
-- Abonamente (Starter £9.99 / Pro £24.99)
-- Design premium, responsive, dark/light mode
-
----
-
-## 💰 Costuri lunare curente (detaliate)
-
-Vezi fișierul complet: [`docs/costs.md`](docs/costs.md)
+### Shared Features
+- Supabase authentication
+- Buyer / Seller account types
+- Subscription plans (Starter £9.99 / Pro £24.99)
+- Premium, responsive design with dark/light mode
 
 ---
 
-## 🛣️ Roadmap (ce urmează)
+## 💰 Current Monthly Costs
 
-- [ ] Multi-language (Spanish + others)
+See full breakdown: [`docs/costs.md`](docs/costs.md)
+
+---
+
+## 🛣️ Roadmap
+
+- [ ] Multi-language support (Spanish + others)
 - [ ] Mobile app (PWA first)
-- [ ] Referral system + affiliate
+- [ ] Referral system + affiliate program
 - [ ] Advanced AI features
-- [ ] Full GitHub documentation + architecture
+- [ ] Complete GitHub documentation + architecture
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Lovable.dev + Next.js / Tailwind
+- **Frontend:** Lovable.dev + Next.js / Tailwind CSS
 - **Backend:** Supabase (Auth, Database, Edge Functions)
 - **Payments:** Stripe
 - **Hosting:** Lovable + Supabase
-- **AI:** Grok + Claude (unde este cazul)
+- **AI:** Grok + Claude (where needed)
 
 ---
 
-## 📄 Documentație suplimentară
+## 📄 Additional Documentation
 
 - [Architecture & Features](docs/architecture.md)
 - [Cost Breakdown & Projections](docs/costs.md)
-- [Roadmap detaliat](docs/roadmap.md)
+- [Detailed Roadmap](docs/roadmap.md)
 
 ---
 
