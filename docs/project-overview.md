@@ -19,10 +19,11 @@ Our mission: Help freelancers earn more money and learn faster — all in one pl
 
 ---
 
-## Key Differentiators
+## Key Features
 
+- Real-time chat between buyers and sellers (available on all pages)
 - Built-in education-to-earning loop (Academy → Marketplace)
-- **0% commission on Academy courses** — mentors keep 100% of course revenue
+- 0% commission on Academy courses — mentors keep 100% of course revenue
 - Strong focus on "How to Sell Online" (Amazon, TikTok, eBay)
 - Clean, premium UI/UX
 
@@ -37,22 +38,15 @@ Even though we charge **0% commission** on Academy course sales, we generate rev
   - Pro plan: £24.99/month
 - **10% commission** on Marketplace gig orders
 
-This model incentivizes high-quality course creation while ensuring sustainable platform revenue.
-
 ---
 
 ## Current Traction
 
 - Live platform: https://quickfreelance.co.uk
 - Fully functional Marketplace + Academy with Stripe payments
-- Real-time chat, subscriptions, course player, and dashboards
+- Real-time chat system on all pages
+- Subscriptions, course player, and professional dashboards
 - Professional GitHub documentation and code exports
-
----
-
-## Vision
-
-To become the go-to platform for UK and European freelancers who want to **sell services and teach their skills** in the same ecosystem.
 
 ---
 
