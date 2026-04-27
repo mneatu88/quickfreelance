@@ -1,43 +1,47 @@
-# Cost Breakdown & Monthly Projections
+# Cost Breakdown & Revenue Projections
 
-**QuickFreelance – Real Cost Structure**  
+**QuickFreelance – Real Cost Structure & Financial Projections**  
 **Last updated:** April 2026
 
 ---
 
-## Current Monthly Costs (Real & Transparent)
+## Current Monthly Costs (Real)
 
 | Category                  | Service                  | Monthly Cost | Notes |
 |---------------------------|--------------------------|--------------|-------|
-| **Platform Builder**     | Lovable.dev              | **£44**      | Current paid plan |
-| **Database & Auth**      | Supabase                 | £0           | Free tier (Nano instance) – will increase with usage |
-| **Payments**             | Stripe                   | £0           | Only transaction fees (2.9% + £0.30 per successful payment) |
-| **Domain**               | quickfreelance.co.uk     | ~£1          | £12/year |
-| **Email**                | Supabase / Resend        | £0           | Free tier |
-| **AI Usage**             | Grok + Claude            | £0–variable  | Pay-as-you-go (very low at the moment) |
-| **Hosting / CDN**        | Lovable + Supabase       | £0           | Included in current plans |
-| **Analytics**            | Google Analytics         | £0           | Free |
-| **Total (current)**      | **≈ £45 / month**        | -            | Very low while in Beta |
-
----
-
-## When Costs Will Increase (Realistic Projections)
-
-| Monthly Active Users | Supabase Plan       | Estimated Total Cost | Notes |
-|----------------------|---------------------|----------------------|-------|
-| < 1,000              | Free tier           | ~£45–£60             | Current situation |
-| 1,000 – 5,000        | Pro (£25)           | ~£80–£100            | First upgrade |
-| 5,000 – 15,000       | Team / Enterprise   | £150–£300+           | Higher usage + more features |
-| 15,000+              | Dedicated / Enterprise | £400+             | Scale phase |
+| Platform Builder          | Lovable.dev              | **£44**      | Current paid plan |
+| Database & Auth           | Supabase                 | £0           | Free tier (will increase with usage) |
+| Payments                  | Stripe                   | £0           | Only transaction fees |
+| Domain                    | quickfreelance.co.uk     | ~£1          | £12/year |
+| **Total current**         |                          | **≈ £45**    | Very low while in Beta |
 
 ---
 
 ## Revenue Streams
 
-1. **Subscriptions** – Starter £9.99 / Pro £24.99  
-2. **Marketplace Commission** – 10% on every gig  
-3. **Academy** – 0% commission on courses (first 6–12 months)
+- **Subscriptions**: Starter £9.99 / Pro £24.99 per user
+- **Marketplace Commission**: 10% on every gig order
+- **Academy**: 0% commission on courses (first 6–12 months)
 
 ---
 
-**Note:** Supabase, AI și Stripe sunt pay-as-you-go. Costurile cresc doar când avem trafic real.
+## Projected Profit (Conservative Estimates)
+
+| Active Users | Monthly Revenue (est.) | Monthly Cost | Estimated Monthly Profit | Annual Profit (est.) |
+|--------------|------------------------|--------------|---------------------------|----------------------|
+| 500          | £2,000 – £3,000        | £60          | £1,940 – £2,940           | £23,000 – £35,000    |
+| 2,000        | £8,000 – £12,000       | £100         | £7,900 – £11,900          | £95,000 – £143,000   |
+| 5,000        | £20,000 – £30,000      | £200         | £19,800 – £29,800         | £238,000 – £358,000  |
+
+**Assumptions:** 8–12% conversion to paid subscriptions + average commission per order.
+
+---
+
+**Note:**  
+We are intentionally keeping costs very low during Beta. Supabase, AI and Stripe are pay-as-you-go and will scale with real usage.
+
+---
+
+**Next planned upgrades:**
+- Supabase Pro plan (when we hit free tier limits)
+- Proper monitoring and backup strategy
